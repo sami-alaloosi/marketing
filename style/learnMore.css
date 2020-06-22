@@ -1,0 +1,46 @@
+.showcase {
+    height: 70vh;
+  }
+
+.showcase:before {
+    background: url(imgs/food.jpeg) no-repeat center center/cover;
+  }
+
+  .mainboxes{
+    /* background-color: chocolate; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2vw;
+    /* height: 250vh; */
+  }
+
+  .video{
+    /* border: solid black 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 48vh;
+  }
+
+  @media (max-width: 1200px){
+    .video {
+      width: 50vw;
+      height: 40vh;
+    }
+  }
+
+
+  @media (max-width: 800px){
+    .video {
+      width: 70vw;
+      height: 40vh;
+    }
+  }
+
+  @media (max-width: 500px){
+    .video {
+      width: 75vw;
+      height: 40vh;
+    }
+  }
