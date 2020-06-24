@@ -1,0 +1,144 @@
+.sautiLogo{
+  background-color: rgba(24, 39, 51 , 0.85);
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.sautiLogo h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-family: 'Caveat', cursive;
+}
+
+.sautiLogo h1 span {
+    font-size: 4.8rem;
+    color: red;
+}
+.sectionOne {
+  display: flex;
+  justify-content: center
+}
+.theTeam{
+  margin: 2%;
+  padding: 1%;
+  
+}
+
+.theTeam:hover{
+    border-left: grey 3px solid;
+}
+.theTeam h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    color: grey;
+}
+
+.theTeam h3 {
+    color: balck;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+    font-family: 'Krona One', sans-serif;
+}
+
+.dataBank {
+    background-color: rgba(255, 99, 71, 0.65);
+    color: white;
+    padding: .3%;
+}
+
+.make {
+    color: rgba(255, 99, 71, 0.65);
+}
+
+.theTeam p {
+    color: grey;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+}
+
+.people h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    color: grey;
+}
+
+.ourImags{
+    /* background-color: chocolate; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw;
+    /* height: 250vh; */
+    /* width: 90%; */
+}
+
+.imgs1, .imgs2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* border: tomato 2px solid; */
+    margin-top: 2rem;
+}
+
+.img11{
+    /* border: springgreen 2px solid; */
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: space-around;
+}
+
+.imgs1 div, .imgs2 div {
+    display: flex;
+    justify-content: center;
+}
+
+.imgs2 div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.myImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: indigo solid 2px; */
+}
+
+.yourName {
+    font-size: 1.5rem;
+}
+
+.yourJob {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.logs {
+    color: black;
+}
+
+.imgs1 img:hover{
+    border: gray solid 2px;
+    box-shadow: -7px -10px 4px rgba(255, 99, 71, 0.65);
+}
+
+.imgs2 img:hover{
+    border: gray solid 2px;
+    box-shadow: 7px -10px 4px rgba(255, 99, 71, 0.65);
+}
+
+
+@media (max-width: 800px){
+    .ourImags{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-gap: 0; */
+    }
+  }
+
+
